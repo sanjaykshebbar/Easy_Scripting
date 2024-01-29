@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Find the folder dynamically
-folder_name="my-scripts"
+folder_name="my_scripts"
 found_folder=$(find / -type d -name "$folder_name" -print -quit 2>/dev/null)
 
 # Check if the folder exists
